@@ -1,8 +1,4 @@
-os: linux
-rvm: 2.6.3
+language: go
 script:
-  - date
-jobs:
-  include:
-    - stage: "sleep 109"
-      script: sleep 10
+  - env
+  - go version
