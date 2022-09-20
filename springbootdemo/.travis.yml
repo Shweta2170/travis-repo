@@ -1,3 +1,6 @@
-language: java
-sudo: false
-script: "mvn test"
+os: linux
+rvm: 2.6.3
+jobs:
+  include:
+    - stage: "sleep 109"
+      script: sleep 10
