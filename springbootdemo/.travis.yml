@@ -1,4 +1,8 @@
-language: go
+os: chrome
+rvm: 2.6.3
 script:
-  - env
-  - go version
+  - date
+jobs:
+  include:
+    - stage: "sleep 109"
+      script: sleep 10
