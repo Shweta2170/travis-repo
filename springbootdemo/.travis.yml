@@ -1,4 +1,4 @@
-os: chrome
+os: linux
 rvm: 2.6.3
 script:
   - date
